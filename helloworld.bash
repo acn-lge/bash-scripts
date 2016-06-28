@@ -5,4 +5,5 @@ if [ "$*" = "-h" ]; then
 fi
 
 echo "Hello, world."
+echo "Goodbye, world."
 exit 0
