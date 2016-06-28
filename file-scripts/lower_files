@@ -1,0 +1,8 @@
+#!/usr/local/bin/bash
+
+for file in `\ls -1`; do
+  lfile=`echo $file | tr [A-Z] [a-z]`
+  echo "Moving $file to $lfile"
+  mv $file $lfile
+done
+

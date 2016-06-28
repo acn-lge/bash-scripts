@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash -v
+
+if [ "$2" = "" ]; then
+   find . -name "$1" -print
+else
+   find $2 -name "$1" -print
+fi
